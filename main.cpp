@@ -12,7 +12,7 @@ int main()
 	// -- Call overloaded function with float parameters
 	getinput(fnum1, fnum2);
 	cout << fixed << setprecision(2);
-	cout << num1 << " " << num2 << endl;
+	cout << fnum1 << " " << fnum2 << endl;
 	swapTwoValues(fnum1, fnum2);
 	cout << num1 << " " << num2 << endl;
 }
