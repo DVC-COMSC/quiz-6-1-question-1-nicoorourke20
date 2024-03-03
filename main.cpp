@@ -1,5 +1,8 @@
 #include "q1.hpp"
 
+// Do not change this file.
+// Use q1.hpp file to complete the functions swap() and getinput()
+
 int main()
 {
 	int num1, num2;
