@@ -8,7 +8,12 @@ TEST_CASE("Test1 ", "[Find the Prime]")
 {
 	int n1, n2;
 	int p1, p2;
-	// getTwoValues(n1, n2);
+	getTwoValues(n1, n2);
+	p1 = getNextPrime(n1);
+	p2 = getPrevPrime(n2);
+	REQUIRE(p1 == 211);
+	REQUIRE(p2 == 241);
+
 	n1 = 200;
 	n2 = 250;
 	p1 = getNextPrime(n1);
