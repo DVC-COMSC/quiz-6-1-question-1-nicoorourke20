@@ -1,8 +1,5 @@
+#include <iostream>
 
-//********************
-// Declare Function Prototypes
-//********************
-
-// ******************************
-// Implement all your functions here
-// ******************************
+void getTwoValues(int &begin, int &end);
+int getNextPrime(int begin);
+int getPrevPrime(int end);
