@@ -1,3 +1,6 @@
+#ifndef Q1_HPP
+#define Q1_HPP
+
 #include <iostream>
 
 // Function to get two integer values from the user
@@ -34,5 +37,7 @@ int getPrevPrime(int end) {
     while (!isPrime(prev)) {
         prev--;
     }
-    return prev;
+    return prev; 
 }
+
+#endif // Q1_HPP
