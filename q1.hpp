@@ -1,6 +1,3 @@
-#ifndef Q1_HPP
-#define Q1_HPP
-
 #include <iostream>
 
 // Function to get two integer values from the user
@@ -29,4 +26,13 @@ int getNextPrime(int begin) {
         next++;
     }
     return next;
+}
+
+// Function to find the previous prime number before a given number
+int getPrevPrime(int end) {
+    int prev = end - 1;
+    while (!isPrime(prev)) {
+        prev--;
+    }
+    return prev;
 }
