@@ -22,4 +22,11 @@ bool isPrime(int n) {
     }
     return true;
 }
-
+// Function to find the next prime number after a given number
+int getNextPrime(int begin) {
+    int next = begin + 1;
+    while (!isPrime(next)) {
+        next++;
+    }
+    return next;
+}
